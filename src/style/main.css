@@ -36,6 +36,28 @@ header {
 .menu:hover {
     cursor: pointer;
 }
+.dropdown-toggle {
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+}
+.dropdown-toggle:active, .dropdown-toggle:hover {
+    color: white;
+}
+.dropdown-menu {
+    background-color: #fdfdfd;
+}
+
+.dropdown-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+    text-transform: lowercase;
+
+
+
+}
 
 .section__title{
     font-family: 'Montserrat', sans-serif;
@@ -92,8 +114,8 @@ header {
     color: gray;
     
     font-weight: 400;
+
     font-size: 12px;
-    width: 70em;
     padding: 1em;
     line-height: 1.7;
 }
@@ -115,7 +137,6 @@ header {
     
     font-weight: 400;
     font-size: 12px;
-    width: 30em;
     padding: 1em;
     line-height: 1.7;
 }
@@ -333,6 +354,11 @@ header {
     display: flex;
     flex-flow: row nowrap;
 }
+
+.footer_social:hover {
+    cursor: pointer;
+}
+
 
 .footer_social li {
     width: 18px;
