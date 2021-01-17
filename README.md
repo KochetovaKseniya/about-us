@@ -1,1 +1,1 @@
-# about-us
+permalink: /index.html
